@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js javascripts/discourse/cookie-policy/cookie-policy.js && cp node_modules/@canonical/cookie-policy/build/css/cookie-policy.css common/common.scss"
+  },
   "private": true,
   "devDependencies": {
+    "@canonical/cookie-policy": "3.6.4",
     "@discourse/lint-configs": "2.2.2",
     "ember-template-lint": "6.0.0",
     "eslint": "9.15.0",

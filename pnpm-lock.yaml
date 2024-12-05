@@ -1,13 +1,16 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: false
+  autoInstallPeers: true
   excludeLinksFromLockfile: false
 
 importers:
 
   .:
     devDependencies:
+      '@canonical/cookie-policy':
+        specifier: 3.6.4
+        version: 3.6.4
       '@discourse/lint-configs':
         specifier: 2.2.2
         version: 2.2.2(ember-template-lint@6.0.0)(eslint@9.15.0)(prettier@2.8.8)
@@ -140,6 +143,9 @@ packages:
   '@babel/types@7.26.0':
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
     engines: {node: '>=6.9.0'}
+
+  '@canonical/cookie-policy@3.6.4':
+    resolution: {integrity: sha512-kfwamTpAaBhtH5TzlMb8wE814a8lIbONUuSYnS7VPiHDfcdmw4NoBPNpldmNY1j3CAT5vMKOx5kulRTWpEXpag==}
 
   '@discourse/lint-configs@2.2.2':
     resolution: {integrity: sha512-y3NNvMTbooALdPtbeGfZukDmZ8V3Nb0mupv0Z4o9HBXKOdlKdauitupTBySLTmLzbIJvNbsRSW/b1Tr126vy/g==}
@@ -1983,6 +1989,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
+
+  '@canonical/cookie-policy@3.6.4': {}
 
   '@discourse/lint-configs@2.2.2(ember-template-lint@6.0.0)(eslint@9.15.0)(prettier@2.8.8)':
     dependencies:
