@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js javascripts/discourse/cookie-policy/cookie-policy.js && cp node_modules/@canonical/cookie-policy/build/css/cookie-policy.css common/common.scss"
+    "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/src/js/* javascripts/discourse/cookie-policy/ && cp node_modules/@canonical/cookie-policy/build/css/cookie-policy.css common/common.scss"
   },
   "private": true,
   "devDependencies": {
