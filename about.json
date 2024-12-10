@@ -4,6 +4,6 @@
   "authors": "Peter French",
   "license_url": null,
   "assets": {
-    "cookie_policy_js": "assets/cookie-policy.js"
+    "cookie_policy_js": "javascripts/cookie-policy/cookie-policy.min.js"
   }
 }
