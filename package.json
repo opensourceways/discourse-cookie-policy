@@ -4,7 +4,7 @@
   },
   "private": true,
   "devDependencies": {
-    "@canonical/cookie-policy": "3.6.4",
+    "@canonical/cookie-policy": "3.6.5",
     "@discourse/lint-configs": "2.2.2",
     "ember-template-lint": "6.0.0",
     "eslint": "9.15.0",
